@@ -1,8 +1,6 @@
 body, html {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    background-color: #EDEAC7;
 }
 
 /* -------------------------Header--------------------------------------------- */
@@ -62,7 +60,7 @@ body, html {
     width: 150%;
 }
 
-/* .header03{
+.header03{
     top: 0;
     left: 0;
     width: 100%; 
@@ -84,11 +82,11 @@ body, html {
 
 .header03 nav ul li a {
     text-decoration: none;
-    color: rgb(25, 8, 8);
+    color:#000DFC;
     font-weight: bold;
     font-size: 10px;
     position: relative
-} */
+}
 
 .header02{
     position: relative; 
@@ -148,16 +146,21 @@ body, html {
 
 /* -----------------------PORTFOLIO--------------------------------------- */
 .bgport{
-    background-image: url(../img/bg2.png);
+    background-image: url(../img/bgtelefon1.png);
     background-size: cover;
+    background-color: black;
 }
 
 .mine{
-    margin-left: 60px;
+    margin-left: 20px;
 }
 
 .projekter{
     margin-left: 75px;
+}
+.storh4{
+    color: #000DFC;
+font-weight: bolder;
 }
 
 .link-wrapper {
@@ -180,13 +183,22 @@ hr {
     margin-right: auto; 
  color: #EDEAC7;
 }
-
+.version2 {
+    border: none;
+    border-top: 1px solid #000DFC; 
+    margin: 20px 0;      
+    width: 80%;          
+    margin-left: auto;    
+    margin-right: auto; 
+ color: #EDEAC7;
+}
 .p-projekt{
     font-size: 0.5em;
+    color: #000DFC;
 }
 
 .MP{
-    color: #D93829;
+    color: #000DFC;
     font-weight: bolder;
 }
 
@@ -295,7 +307,7 @@ figcaption{
 .bg0{
     background-color: #EDEAC7;
 }
-.beskrivendeTekst h3, h1{
+.beskrivendeTekst h3 h1{
     text-align: center;
 }
 

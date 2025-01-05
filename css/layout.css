@@ -2,8 +2,7 @@
     display:grid;
     grid-template-columns: 1fr 1fr ;
     margin-right: 10px;
-    margin-left: 15px ;
-    text-align: center;
+    margin-left: 15px;
 }
 .grid1_1 img{
     width: 100%;
