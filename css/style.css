@@ -1,0 +1,400 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #EDEAC7;
+}
+
+/* -------------------------Header--------------------------------------------- */
+.header {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 10; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: transparent; 
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header nav ul li {
+    margin: 50px;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    position: relative; /* Sørg for at position er relative på <a> */
+}
+
+#navv a {
+    color: black; 
+}
+
+.header nav a::after,
+.header02 nav a::after,
+.header03 nav a::after {
+    content: '';
+    position: absolute;
+    height: 1px; 
+    background: orangered;
+    width: 0; 
+    top: 100%; /* Sørg for, at stregen er under teksten */
+    left: 50%; 
+    transform: translateX(-50%); /* Justering af position for at centrere stregen */
+    transition: width 0.3s ease; 
+    z-index: 5; 
+}
+
+.header nav a:hover::after,
+.header02 nav a:hover::after,
+.header03 nav a:hover::after {
+    width: 150%;
+}
+
+/* .header03{
+    top: 0;
+    left: 0;
+    width: 100%; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: transparent; 
+    position: relative;
+}
+.header03 nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.header03 nav ul li {
+    margin: 50px;
+}
+
+.header03 nav ul li a {
+    text-decoration: none;
+    color: rgb(25, 8, 8);
+    font-weight: bold;
+    font-size: 10px;
+    position: relative
+} */
+
+.header02{
+    position: relative; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 10;
+}
+
+.header02 nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.header02 nav ul li {
+    margin: 50px;
+}
+
+.header02 nav ul li a {
+    text-decoration: none;
+    color: rgb(25, 8, 8);
+    font-weight: bold;
+    font-size: 10px;
+    position: relative; 
+}
+
+/* -----------------------SLUT Header--------------------------------------- */
+
+/*--------------------- Hero Section ---------*/
+.hero {
+    height: 100vh; 
+    background-image: url(../img/Forside.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px; 
+    color: white;
+    position: relative;
+}
+
+.hero h1 {
+    text-align: center; 
+    font-size: 2.5rem; 
+}
+
+.hero h2 {
+    margin-left: 40px; 
+}
+
+/* -----------------------SLUT HERO--------------------------------------- */
+
+/* -----------------------PORTFOLIO--------------------------------------- */
+.bgport{
+    background-image: url(../img/bg2.png);
+    background-size: cover;
+}
+
+.mine{
+    margin-left: 60px;
+}
+
+.projekter{
+    margin-left: 75px;
+}
+
+.link-wrapper {
+    text-decoration: none; 
+    color: inherit; 
+    display: block; 
+}
+
+.link-wrapper:hover {
+    cursor: pointer; 
+    opacity: 0.9; 
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #D93829; 
+    margin: 20px 0;      
+    width: 80%;          
+    margin-left: auto;    
+    margin-right: auto; 
+ color: #EDEAC7;
+}
+
+.p-projekt{
+    font-size: 0.5em;
+}
+
+.MP{
+    color: #D93829;
+    font-weight: bolder;
+}
+
+/* -----------------------TEMA01--------------------------------------- */
+.bg01{
+    background-image: url(../img/bg3.png);
+    background-size: cover;
+}
+
+.præsentationskort{
+    height: 30vh;
+    width: 100%;
+}
+.p-link{
+    font-size: x-small;
+}
+/* -----------------------TEMA02--------------------------------------- */
+.bg02{
+    background-image: url(../img/bag3.png);
+    background-size: cover; 
+    margin: 10px;
+}
+
+.tema02_2 img{
+    width: 100%;
+}
+
+figcaption{
+    font-size: smaller;
+}
+
+/* -----------------------TEMA03--------------------------------------- */
+.bg03{
+   background-image: url(../img/bg3.png);
+   background-size: cover;
+   margin: 10px;
+}
+.brugertest{
+    text-align: right;
+}
+.custom-link {
+    color: #D93829; 
+    text-decoration: none; 
+}
+
+/* -----------------------TEMA04--------------------------------------- */
+.bg04{
+    background-image: url(../img/bag3.png);
+    background-size: cover; 
+    margin: 10px;
+}
+.tema04b{
+    height: 30vh;
+    width: 100%;
+}
+.LINK {
+    color: #e11bd7; 
+    text-decoration: none; 
+    font-size: smaller;
+}
+
+.billeder-container {
+    display: flex; 
+    gap: 2px; 
+    justify-content: center; 
+}
+
+.billeder-container img {
+    max-width: 150px; 
+    height: auto; 
+}
+/* -----------------------TEMA05--------------------------------------- */
+.bg05{
+    background-image: url(../img/baggrund1.png);
+    background-size: cover; 
+    margin: 10px;
+}
+.LINKK {
+    color: #D93829; 
+    text-decoration: none; 
+}
+.responsive-video {
+    width: 100%; 
+    max-width: 800px; 
+    height: auto; 
+    display: block; 
+    margin: 10px auto; 
+  }
+  .virksomhedssite{
+    text-align: left;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px; 
+}
+
+.image-container img {
+    width: 60%; 
+    height: auto; 
+}
+/* -----------------------ABOUT--------------------------------------- */
+
+
+.bg0{
+    background-color: #EDEAC7;
+}
+.beskrivendeTekst h3, h1{
+    text-align: center;
+}
+
+.beskrivendeTekst{
+   margin-right: 20px;
+}
+.hero2 {
+    position: relative;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D93829;
+    padding: 0 20px;
+    background: url('../img/bag1.png');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.hero2 .content h1 {
+    font-size: 3rem; /* Standard skriftstørrelse */
+    margin-left: 20px;
+}
+
+.hero2 h2 {
+    margin-left: 40px; 
+    font-size: 3rem; 
+}
+
+.hero2 h3 {
+    margin-left: 80px; 
+    font-size: 3rem; 
+}
+.bgabout{
+    background-image: url(../img/bagtelefon1.png);
+    background-size: cover;
+    padding: 0 100px;
+}
+/* -----------------MEDIA-------------------*/
+
+@media (min-width: 769px) {
+    .hero2 .content h1 {
+        font-size: 3rem; 
+    }
+
+    .hero2 h2 {
+        font-size: 5rem; 
+        margin-left: 30px;
+    }
+
+    /* .portrætbillede{
+        max-width: 50%;
+        height: auto;
+    } */
+
+    .grid-container {
+        display: grid;
+        gap: 1px; 
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        max-width: 600px; /* Begræns bredden på hele gridet */
+
+    }
+
+    .grid-container img {
+        margin: 0; 
+        padding: 0; 
+        display: block; 
+        width: 100%; 
+        height: 100%; 
+        object-fit: cover; 
+    }
+
+    .grid-container img:nth-child(1) {
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 2;
+    }
+
+    .grid-container img:nth-child(2) {
+        grid-column: 3 / span 1;
+        grid-row: 1 / span 1;
+    }
+
+    .grid-container img:nth-child(3) {
+        grid-column: 3 / span 1;
+        grid-row: 2 / span 1;
+    }
+    .grid_1_1{
+        display:grid;
+        grid-template-columns: 1fr 1fr ;
+       color:#D93829 ;
+        /* background-color: #f6670043; */
+        margin: 0%;
+    }
+    .bgabout{
+        background-image: url(../img/Skærmbillede\ 2025-01-05\ kl.\ 13.44.53.png);
+        background-size: cover;
+        padding: 0 100px;
+    }
+
+}
+
