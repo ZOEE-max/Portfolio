@@ -201,6 +201,14 @@ hr {
     margin-left: auto;    
     margin-right: auto; 
 }
+.version4 {
+    border: none;
+    border-top: 4px solid #000000; 
+    margin: 20px 0;      
+    width: 80%;          
+    margin-left: auto;    
+    margin-right: auto; 
+}
 .p-projekt{
     font-size: 0.5em;
     color: #000DFC;
@@ -213,7 +221,7 @@ hr {
 
 /* -----------------------TEMA01--------------------------------------- */
 .bg01{
-    background-image: url(../img/Skærmbillede\ 2025-01-06\ kl.\ 00.38.19.png);
+    background-image: url(../img/bgtema1.png);
     background-size: cover;
     color: white;
     background-color: black;
@@ -326,13 +334,18 @@ figcaption{
 
 .bg0{
     background-color: #EDEAC7;
+    color:#D93829 ;
 }
-.beskrivendeTekst h3 h1{
+.beskrivendeTekst  {
+    text-align: center;
+}
+.cv{
     text-align: center;
 }
 
 .beskrivendeTekst{
    margin-right: 20px;
+   
 }
 .hero2 {
     position: relative;
@@ -348,7 +361,7 @@ figcaption{
 }
 
 .hero2 .content h1 {
-    font-size: 3rem; /* Standard skriftstørrelse */
+    font-size: 3rem; 
     margin-left: 20px;
 }
 
@@ -366,6 +379,21 @@ figcaption{
     background-size: cover;
     padding: 0 100px;
 }
+/* -----------------cv-------------------*/
+.bg06{
+        background-image: url(../img/Skærmbillede\ 2025-01-06\ kl.\ 13.52.19.png);
+        background-size: cover; 
+        margin: 20px;
+        color: black;
+        background-color: #F8F7EF;
+}
+.main06{
+    border: solid 4px black;
+    padding: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
 /* -----------------MEDIA-------------------*/
 
 @media (min-width: 1000px) {
@@ -414,7 +442,6 @@ figcaption{
     .grid_1_1{
         display:grid;
         grid-template-columns: 1fr 1fr ;
-       color:#D93829 ;
         /* background-color: #f6670043; */
         margin: 0%;
     }
@@ -527,7 +554,8 @@ figcaption{
     padding: 0 300px;
 }
 .bg05 img{
-    max-width: 400px; 
+    min-width: 400px; 
+    left: 30px;
 }
 .content-container {
     display: flex; 
@@ -535,14 +563,15 @@ figcaption{
     gap: 20px; /
 }
 
-.scadodle-arrow2 {
+/* .scadodle-arrow2 {
     background-image: url('../img/pil3.svg');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 1000px; 
+    width: 100px; 
     height: 95px; 
+} */
 }
-}
+/* ----------------Media ti tablet--------------------------- */
 @media (min-width: 600px){
     .bg01, .bg02, .bg03, .bg04, .bg05{
      margin: 30px;
