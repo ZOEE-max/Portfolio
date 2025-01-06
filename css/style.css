@@ -193,6 +193,14 @@ hr {
     margin-right: auto; 
  color: #EDEAC7;
 }
+.version3 {
+    border: none;
+    border-top: 1px solid #ffffff; 
+    margin: 20px 0;      
+    width: 80%;          
+    margin-left: auto;    
+    margin-right: auto; 
+}
 .p-projekt{
     font-size: 0.5em;
     color: #000DFC;
@@ -253,9 +261,11 @@ figcaption{
 
 /* -----------------------TEMA04--------------------------------------- */
 .bg04{
-    background-image: url(../img/bag3.png);
+    background-image: url(../img/bgtema2.png);
     background-size: cover; 
     margin: 10px;
+    background-color: black;
+    color: #ffffff;
 }
 .tema04b{
     height: 30vh;
@@ -415,9 +425,9 @@ figcaption{
 .bgport{
     background-image: url(../img/Skærmbillede\ 2025-01-05\ kl.\ 23.22.33.png);
     background-size: cover;
-    /* max-width: 1200px; */
-    max-width: 100%;
-    overflow-x: hidden; 
+    max-width: 1200px;
+    /* max-width: 100%;
+    overflow-x: hidden;  */
 }
 .MP{
     margin-left: 100px;
@@ -500,6 +510,13 @@ figcaption{
 .præsentationskort {
     max-width: 48%; 
     height: auto; 
+}
+  /* ----------tema04 ---------*/
+  .bg04{
+    padding: 0 300px;
+}
+.bg04 img{
+    max-width: 400px; 
 }
 }
 
