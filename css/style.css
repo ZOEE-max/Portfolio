@@ -250,6 +250,7 @@ figcaption{
    background-size: cover;
    margin: 10px;
    color: bisque;
+   background-color: black;
 }
 .brugertest{
     text-align: right;
@@ -289,12 +290,14 @@ figcaption{
 }
 /* -----------------------TEMA05--------------------------------------- */
 .bg05{
-    background-image: url(../img/baggrund1.png);
+    background-image: url(../img/Skærmbillede\ 2025-01-05\ kl.\ 23.22.33.png);
     background-size: cover; 
     margin: 10px;
+    background-color: black;
+    color: white;
 }
 .LINKK {
-    color: #D93829; 
+    color: #fa1500; 
     text-decoration: none; 
 }
 .responsive-video {
@@ -517,6 +520,27 @@ figcaption{
 }
 .bg04 img{
     max-width: 400px; 
+}
+/* ----------tema05 ---------*/
+
+.bg05{
+    padding: 0 300px;
+}
+.bg05 img{
+    max-width: 400px; 
+}
+.content-container {
+    display: flex; 
+    align-items: center; 
+    gap: 20px; /
+}
+
+.scadodle-arrow2 {
+    background-image: url('../img/pil3.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1000px; 
+    height: 95px; 
 }
 }
 
