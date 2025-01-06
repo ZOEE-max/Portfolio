@@ -357,6 +357,7 @@ figcaption{
 
 @media (min-width: 769px) {
     /* -------om mig------------- */
+
     .hero2 .content h1 {
         font-size: 3rem; 
     }
@@ -414,6 +415,9 @@ figcaption{
 .bgport{
     background-image: url(../img/Skærmbillede\ 2025-01-05\ kl.\ 23.22.33.png);
     background-size: cover;
+    /* max-width: 1200px; */
+    max-width: 100%;
+    overflow-x: hidden; 
 }
 .MP{
     margin-left: 100px;
@@ -425,7 +429,7 @@ figcaption{
     left: 300px;
     padding-right: 10px;
     font-size: x-large;
-
+  
 }
 
 .version2 {
@@ -434,6 +438,7 @@ figcaption{
 }
 .bgport .grid1_1 div img {
     max-width: 60%;
+    
 }
 /* ----------tema01 ---------*/
 
