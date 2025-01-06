@@ -111,7 +111,7 @@ body, html {
 
 .header02 nav ul li a {
     text-decoration: none;
-    color: rgb(25, 8, 8);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 10px;
     position: relative; 
@@ -221,9 +221,11 @@ hr {
 }
 /* -----------------------TEMA02--------------------------------------- */
 .bg02{
-    background-image: url(../img/bag3.png);
+    background-image: url(../img/bgtema2.png);
     background-size: cover; 
     margin: 10px;
+    background-color: black;
+    color: #ffffff;
 }
 
 .tema02_2 img{
@@ -454,5 +456,31 @@ figcaption{
     display: block; 
     margin-top: 60px; 
   }
+  /* ----------tema02 ---------*/
+  .bg02{
+    padding: 0 300px;
+}
+.bg02 img{
+    max-width: 400px; 
+}
+.kode{
+    position: relative;
+    left: 400px;
+    bottom: 85px;
+}
+.scadodle-arrow {
+    background-image: url('../img/pil2.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1000px; 
+    height: 95px;
+    display: block; 
+    margin-top: 80px; 
+  }
+  /* ----------tema03 ---------*/
+  .bg03{
+    padding: 0 300px;
+}
+
 }
 
