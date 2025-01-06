@@ -238,9 +238,10 @@ figcaption{
 
 /* -----------------------TEMA03--------------------------------------- */
 .bg03{
-   background-image: url(../img/bg3.png);
+   background-image: url(../img/Skærmbillede\ 2025-01-05\ kl.\ 23.22.33.png);
    background-size: cover;
    margin: 10px;
+   color: bisque;
 }
 .brugertest{
     text-align: right;
@@ -481,6 +482,19 @@ figcaption{
   .bg03{
     padding: 0 300px;
 }
+.præsentationskort{
+    max-width: 400px;
+}
 
+.image-row {
+    display: flex; 
+    gap: 10px; 
+    justify-content: center; 
+    
+}
+.præsentationskort {
+    max-width: 48%; 
+    height: auto; 
+}
 }
 
