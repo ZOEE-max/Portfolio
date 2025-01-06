@@ -231,7 +231,7 @@ hr {
 .bg02{
     background-image: url(../img/bgtema2.png);
     background-size: cover; 
-    margin: 10px;
+    margin: 20px;
     background-color: black;
     color: #ffffff;
 }
@@ -248,7 +248,7 @@ figcaption{
 .bg03{
    background-image: url(../img/Skærmbillede\ 2025-01-05\ kl.\ 23.22.33.png);
    background-size: cover;
-   margin: 10px;
+   margin: 20px;
    color: bisque;
    background-color: black;
 }
@@ -264,7 +264,7 @@ figcaption{
 .bg04{
     background-image: url(../img/bgtema2.png);
     background-size: cover; 
-    margin: 10px;
+    margin: 20px;
     background-color: black;
     color: #ffffff;
 }
@@ -292,7 +292,7 @@ figcaption{
 .bg05{
     background-image: url(../img/Skærmbillede\ 2025-01-05\ kl.\ 23.22.33.png);
     background-size: cover; 
-    margin: 10px;
+    margin: 20px;
     background-color: black;
     color: white;
 }
@@ -368,7 +368,7 @@ figcaption{
 }
 /* -----------------MEDIA-------------------*/
 
-@media (min-width: 769px) {
+@media (min-width: 1000px) {
     /* -------om mig------------- */
 
     .hero2 .content h1 {
@@ -543,4 +543,16 @@ figcaption{
     height: 95px; 
 }
 }
+@media (min-width: 600px){
+    .bg01, .bg02, .bg03, .bg04, .bg05{
+     margin: 30px;
+    }
+    .container {
+        max-width: 400px; 
+        margin: 0 200px; 
+        padding: 0 20px; 
+        
+    }
+}
+
 
