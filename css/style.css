@@ -142,12 +142,12 @@ p{
 .hero h1 {
     text-align: center; 
     font-size: 2.5rem; 
-    font-family: DMS;
+    /* font-family: DMS; */
 }
 
 .hero h2 {
     margin-left: 40px; 
-    font-family: DMS;
+    /* font-family: DMS; */
 }
 .content {
     opacity: 0;  
