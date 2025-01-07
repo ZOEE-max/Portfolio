@@ -2,7 +2,9 @@ body, html {
     margin: 0;
     padding: 0;
 }
-
+p{
+    Font-family: poppinslight;
+}
 /* -------------------------Header--------------------------------------------- */
 .header {
     position: absolute; 
@@ -131,6 +133,7 @@ body, html {
     padding: 0 20px; 
     color: white;
     position: relative;
+    font-family: poppinsx-light;
 }
 
 .hero h1 {
@@ -393,7 +396,20 @@ figcaption{
     margin-right: 200px;
     margin-left: 200px;
 }
-
+/* --------font------------- */
+@font-face {
+    font-family: "DMS"; 
+    src: url(../font/DM_Serif_Text/DMSerifText-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "poppinslight"; 
+    src: url(../font/Poppins/Poppins-Light.ttf) format("truetype");
+}
+@font-face {
+    font-family: "poppinsx-light"; 
+    src: url(../font/Poppins/Poppins-Italic.ttf) format("truetype");
+}
+  
 /* -----------------MEDIA-------------------*/
 
 @media (min-width: 1000px) {
