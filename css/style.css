@@ -419,7 +419,7 @@ figcaption{
     src: url(../font/Poppins/Poppins-Italic.ttf) format("truetype");
 }
   
-/* -----------------MEDIA-------------------*/
+/* -----------------MEDIA til computer-------------------*/
 
 @media (min-width: 1000px) {
     /* -------om mig------------- */
@@ -479,9 +479,8 @@ figcaption{
 .bgport{
     background-image: url(../img/Skærmbillede\ 2025-01-05\ kl.\ 23.22.33.png);
     background-size: cover;
-    max-width: 1200px;
-    /* max-width: 100%;
-    overflow-x: hidden;  */
+    max-width: 1000px;
+    margin-left: 100px;
 }
 .MP{
     margin-left: 100px;
@@ -588,16 +587,34 @@ figcaption{
 }
 
 }
-/* ----------------Media ti tablet--------------------------- */
+/* ----------------Media til tablet--------------------------- */
 @media (min-width: 600px){
     .bg01, .bg02, .bg03, .bg04, .bg05{
      margin: 30px;
     }
     .container {
-        max-width: 400px; 
+        min-width: 600px; 
         margin: 0 200px; 
         padding: 0 20px; 
         
+    }
+    
+}
+/* ----------------Media til storskærm--------------------------- */
+@media (min-width: 1100px) { 
+    .hero2 .contentt h1 {
+        font-size: 5rem; 
+        margin-left: 20px;
+    }
+    
+    .hero2 h2 {
+        margin-left: 100px; 
+        font-size: 5rem; 
+    }
+    
+    .hero2 h3 {
+        margin-left: 200px; 
+        font-size: 5rem; 
     }
 }
 
