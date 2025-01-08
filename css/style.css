@@ -35,7 +35,7 @@ p{
     color: white;
     font-weight: bold;
     font-size: 10px;
-    position: relative; /* Sørg for at position er relative på <a> */
+    position: relative; 
 }
 
 #navv a {
@@ -50,9 +50,9 @@ p{
     height: 1px; 
     background: orangered;
     width: 0; 
-    top: 100%; /* Sørg for, at stregen er under teksten */
+    top: 100%; 
     left: 50%; 
-    transform: translateX(-50%); /* Justering af position for at centrere stregen */
+    transform: translateX(-50%);
     transition: width 0.3s ease; 
     z-index: 5; 
 }
@@ -462,7 +462,6 @@ figcaption{
     .grid_1_1{
         display:grid;
         grid-template-columns: 1fr 1fr ;
-        /* background-color: #f6670043; */
         margin: 0%;
     }
     .bgabout{
@@ -476,7 +475,6 @@ figcaption{
     background-image: url(../img/Skærmbillede\ 2025-01-05\ kl.\ 23.22.33.png);
     background-size: cover;
     margin-left: 50px;
-    /* margin-left: 100px; */
     margin-right: 100px;
 
 }
