@@ -152,6 +152,7 @@ p{
 .content {
     opacity: 0;  
     transition: opacity 2s ease-in-out;  
+   
 }
 
 /* -----------------------SLUT HERO--------------------------------------- */
@@ -385,8 +386,6 @@ figcaption{
     font-size: 3rem; 
 }
 .bgabout{
-    background-image: url(../img/bagtelefon1.png);
-    background-size: cover;
     padding: 0 10px;
 }
 /* -----------------cv-------------------*/
@@ -469,6 +468,7 @@ figcaption{
         background-size: cover;
         padding: 0 100px;
     }
+
 /* ----------portfolio ---------*/
 
 .bgport{
@@ -478,6 +478,9 @@ figcaption{
     margin-right: 100px;
 
 }
+.bgport main{
+    max-width: 1000px;
+  }
 .MP{
     margin-left: 100px;
     font-size: x-large;
