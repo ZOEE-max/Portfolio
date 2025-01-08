@@ -142,12 +142,12 @@ p{
 .hero h1 {
     text-align: center; 
     font-size: 2.5rem; 
-    /* font-family: DMS; */
+  
 }
 
 .hero h2 {
     margin-left: 40px; 
-    /* font-family: DMS; */
+  
 }
 .content {
     opacity: 0;  
@@ -234,10 +234,18 @@ hr {
 
 .præsentationskort{
     width: 100%;
+    
 }
 .p-link{
-    font-size: x-small;
+    font-size: small;
 }
+.zoomable {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease; 
+    cursor: pointer;
+}
+
 /* -----------------------TEMA02--------------------------------------- */
 .bg02{
     background-image: url(../img/bgtema2.png);
@@ -254,6 +262,8 @@ hr {
 figcaption{
     font-size: smaller;
 }
+
+
 
 /* -----------------------TEMA03--------------------------------------- */
 .bg03{
@@ -339,9 +349,6 @@ figcaption{
     background-color: #EDEAC7;
     color:#D93829 ;
 }
-.beskrivendeTekst  {
-    text-align: center;
-}
 .cv{
     text-align: center;
 }
@@ -380,7 +387,7 @@ figcaption{
 .bgabout{
     background-image: url(../img/bagtelefon1.png);
     background-size: cover;
-    padding: 0 100px;
+    padding: 0 10px;
 }
 /* -----------------cv-------------------*/
 .bg06{
@@ -392,9 +399,7 @@ figcaption{
 }
 .main06{
     border: solid 4px black;
-    padding: 20px;
-    margin-right: 200px;
-    margin-left: 200px;
+    padding: 10px;
 }
 /* --------font------------- */
 @font-face {
@@ -518,6 +523,16 @@ figcaption{
     display: block; 
     margin-top: 60px; 
   }
+  .zoomable.zoomed {
+    transform: scale(2); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+    z-index: 1000; 
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%) scale(2); 
+    
+}
   /* ----------tema02 ---------*/
   .bg02{
     padding: 0 300px;
@@ -564,6 +579,7 @@ figcaption{
 .bg04 img{
     max-width: 400px; 
 }
+     
 /* ----------tema05 ---------*/
 
 .bg05{
@@ -585,8 +601,15 @@ figcaption{
     .bg01, .bg02, .bg03, .bg04, .bg05{
      margin: 50px;
     }
-  
-    
+    .main06{
+        border: solid 4px black;
+        padding: 10px;
+        margin-right: 200px;
+        margin-left: 200px;
+    }
+    .beskrivendeTekst  {
+        text-align: center;
+    }
 }
 /* ----------------Media til storskærm--------------------------- */
 @media (min-width: 1500px) { 
@@ -604,9 +627,7 @@ figcaption{
         margin-left: 200px; 
         font-size: 5rem; 
     }
-   .bgport{
-   
-}  
+  
 }
 
 
